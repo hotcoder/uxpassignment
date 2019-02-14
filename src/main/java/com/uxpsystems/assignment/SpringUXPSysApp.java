@@ -8,10 +8,13 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableCaching
-public class SpringUXPSysApp implements CommandLineRunner {
+public class SpringUXPSysApp extends SpringBootServletInitializer implements CommandLineRunner {
 
     @Autowired
     UserRepository userRepository;
