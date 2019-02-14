@@ -2,7 +2,7 @@
 spring boot application which will do CRUD operations using hibernate as ORM layer
 
 
-# How to run:
+# Steps to make the application up and run:
 ```
   Install git on your local , please check instllation instructions for different platform
     https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
